@@ -121,7 +121,7 @@ PRODUCT_COPY_FILES += \
 # Liquid Stuff
 PRODUCT_PACKAGES += \
     PerformanceControl \
-    SlimLauncher \
+    Launcher3 \
     LiquidStats \
     LiquidUpdater \
     Eleven \
@@ -259,3 +259,15 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 -include vendor/cyngn/product.mk
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)
+
+# Inherit sabermod configs.  Don't include if TARGET_ARCH isn't defined
+ifdef TARGET_ARCH
+  include vendor/liquid/config/sm.mk
+else
+    $(warning ********************************************************************************)
+    $(warning *  TARGET_ARCH not defined.)
+    $(warning *  This needs to be set in device trees before common.mk is called.)
+    $(warning *  Define TARGET_ARCH before common.mk is called.)
+    $(warning *  skipping sm.mk.)
+    $(warning ********************************************************************************)
+endif

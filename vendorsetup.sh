@@ -1,3 +1,5 @@
+add_lunch_combo liquid_flounder-userdebug
+add_lunch_combo liquid_flounder-user
 add_lunch_combo liquid_acclaim-userdebug
 add_lunch_combo liquid_amami-userdebug
 add_lunch_combo liquid_apexqtmo-userdebug
@@ -24,6 +26,7 @@ add_lunch_combo liquid_ghost-userdebug
 add_lunch_combo liquid_grouper-userdebug
 add_lunch_combo liquid_hercules-userdebug
 add_lunch_combo liquid_hammerhead-userdebug
+add_lunch_combo liquid_hammerhead-user
 add_lunch_combo liquid_hlte-userdebug
 add_lunch_combo liquid_hltespr-userdebug
 add_lunch_combo liquid_hltetmo-userdebug
@@ -59,6 +62,7 @@ add_lunch_combo liquid_lt01wifi-userdebug
 add_lunch_combo liquid_mb886-userdebug
 add_lunch_combo liquid_maguro-userdebug
 add_lunch_combo liquid_mako-userdebug
+add_lunch_combo liquid_mako-user
 add_lunch_combo liquid_manta-userdebug
 add_lunch_combo liquid_maserati-userdebug
 add_lunch_combo liquid_meliusltexx-userdebug
