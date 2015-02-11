@@ -121,9 +121,7 @@ PRODUCT_COPY_FILES += \
 # Liquid Stuff
 PRODUCT_PACKAGES += \
     PerformanceControl \
-    Launcher3 \
-    LiquidStats \
-    LiquidUpdater \
+    Trebuchet \
     Eleven \
     DashClock \
     DeskClock \
