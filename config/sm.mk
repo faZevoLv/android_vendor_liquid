@@ -218,7 +218,8 @@ ifeq ($(strip $(TARGET_SM_AND_DEFINED)),true)
       libjni_filtershow_filters \
       libavformat \
       libavcodec \
-      skia_skia_library_gyp
+      skia_skia_library_gyp \
+      fio
 
     ifeq ($(strip $(O3_OPTIMIZATIONS)),true)
       OPT2 := (max)
